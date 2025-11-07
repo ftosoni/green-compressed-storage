@@ -138,18 +138,4 @@ To test retrieval with power law-distributed keys, simply substitute `--run-test
 
 To profile the energy package consumption, ensure the **Perf suite** is installed on your system and prepend the execution command with `perf stat`.
 
-Example of inserting data while profiling energy:
-
-```bash
-perf stat -a -e power/energy-pkg/ $EXECUTABLE_PATH \
-    --parquetfile=$PROJECT_PATH/sample_data/mediawiki.parquet \
-    --db-path=$PROJECT_PATH/zstd_6_65536 \
-    --key-column=inverted_filepath \
-    --compression=zstd \
-    --compression-level=6 \
-    --block-size=65536 \
-    --run-test=insert \
-    --sampling-rate-zipf=1.5 \
-    --sampling-rate=1.0 \
-    --probability=0.0
-```
+For each test, prepend `perf stat -a -e power/energy-pkg/` to estimate the package-level consumption.
