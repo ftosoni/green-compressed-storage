@@ -139,3 +139,36 @@ To test retrieval with power law-distributed keys, simply substitute `--run-test
 To profile the energy package consumption, ensure the **Perf suite** is installed on your system and prepend the execution command with `perf stat`.
 
 For each test, prepend `perf stat -a -e power/energy-pkg/` to estimate the package-level consumption.
+
+To conclude the `README.md` for this project, it is standard practice to include sections for citing the work, acknowledging contributors or funding, and specifying the licence.
+
+Given the academic nature of the paper, here is a professional way to structure the end of your file:
+
+### Citation
+
+If you use this software or the data from our experiments in your research, please cite our paper:
+
+```bibtex
+@inproceedings{ferragina2026energy,
+  author    = {Ferragina, Paolo and Tosoni, Francesco},
+  title     = {The Energy-Throughput Trade-off in Lossless-Compressed Source Code Storage},
+  booktitle = {2026 IEEE International Conference on Software Analysis, Evolution and Reengineering - Companion (SANER-C)},
+  year      = {2026},
+  pages     = {157--163},
+  doi       = {10.1109/SANER-C67878.2026.00027},
+  publisher = {IEEE}
+}
+```
+
+### Acknowledgements
+
+This work was supported by the L'EMbeDS Department at the Sant'Anna School of Advanced Studies, Pisa, Italy. All the computations presented in this paper were performed
+using the GRICAD infrastructure ([https://gricad.univ-grenoble-alpes.fr](https://gricad.univ-grenoble-alpes.fr)), which is supported by Grenoble research communities. We thank SOS Gricad and the Software Heritage team for valuable insights, suggestions, and continuous support for our work.
+
+### Licence
+
+This project is licensed under the Apache 2.0 Licence - see the [LICENCE.md](https://www.google.com/search?q=LICENCE.md) file for details.
+
+-----
+
+*For any questions or further information regarding the experiments or the compressed key-value store design, please contact the authors at the Sant'Anna School of Advanced Studies.*
