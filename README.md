@@ -154,7 +154,7 @@ If you use this software or the data from our experiments in your research, plea
   title     = {The Energy-Throughput Trade-off in Lossless-Compressed Source Code Storage},
   booktitle = {2026 IEEE International Conference on Software Analysis, Evolution and Reengineering - Companion (SANER-C)},
   year      = {2026},
-  pages     = {157--163},
+  pages     = {157--164},
   doi       = {10.1109/SANER-C67878.2026.00027},
   publisher = {IEEE}
 }
@@ -167,7 +167,7 @@ using the GRICAD infrastructure ([https://gricad.univ-grenoble-alpes.fr](https:/
 
 ### Licence
 
-This project is licensed under the Apache 2.0 Licence - see the [LICENCE.md](https://www.google.com/search?q=LICENCE.md) file for details.
+This project is licensed under the Apache 2.0 Licence - see the [LICENSE.md](LICENSE.md) file for details.
 
 -----
 
